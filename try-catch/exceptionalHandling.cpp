@@ -24,7 +24,7 @@ class test{
 
 	public:
 		int division(int x,int y){
-			if( y==0){
+			if(x>0 && y==0){
 				throw Error();
 				
 			}
